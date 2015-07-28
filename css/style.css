@@ -1,0 +1,24 @@
+/* h1 is ther header  */
+h1 {
+ color:gold; 
+}
+
+.title-section{
+  text-align:center;
+}
+/* we are just applying the border style to just the title section by saying the title-seciton */
+.title-section img{
+  border-style:solid;
+  border-color:gold;
+  border-width;10px;
+}
+
+p {
+  font-family: Arial;
+}
+
+body {
+  background-color: black;
+  color:white;
+}
+/* we are not changing the heading color- because we applied the that the title section should be gold so it will override us telling it that the textcolor should be white  */
